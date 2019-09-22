@@ -14,5 +14,10 @@ pipeline {
                 sh 'python /home/agney/PycharmProjects/jenkinsTest/src/hw.py'
             }
         }
+        stage("Second step") {
+            steps {
+                sh 'python /home/agney/PycharmProjects/jenkinsTest/src/bw.py'
+            }
+        }
     }
 }
