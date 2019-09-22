@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                python /home/agney/PycharmProjects/jenkinsTest/src/hw.py
+                python '/home/agney/PycharmProjects/jenkinsTest/src/hw.py'
             }
         }
     }
